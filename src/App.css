@@ -1,0 +1,133 @@
+body{
+  background: linear-gradient(rgb(90, 100, 133), rgb(26, 58, 160));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+}
+
+.App input, .App button {
+  border: 0;
+  border-radius: 16px;
+  color: #fff;  
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  height: 36px;
+}
+
+.App header form {
+  display: flex;
+  gap: 12px;
+}
+
+.App input {
+  background-color: #333;
+  flex: 1;
+  width: 500px;
+}
+
+.App button {
+  background-color: hsl(226, 72%, 36%);
+  color: #fff;
+  transition: .2s ease-in-out;
+}
+
+.App button:hover {
+  background-color: hsl(226, 72%, 26%);
+}
+
+.App main {
+  margin: 15px 0px;
+}
+
+main h1{
+  margin: 30px 0px 0px 0px;
+}
+
+.App h1 {
+  text-align: center;
+  
+}
+
+.App h2 {
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
+.App section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.bodyMain{
+  width: 500px;
+  margin: 0 auto;
+}
+.climaAtual{
+  margin: 0;
+  padding: 0;
+}
+.current-weather{
+  margin: 0px;
+
+}
+
+.current-weather p {
+  font-size: 48px;
+}
+
+.current-weather p + p {
+  font-size: 32px;
+}
+
+.forecast ol {
+  list-style: none;
+}
+
+.forecast ol li {
+  padding: 8px 24px;
+  background-color: rgba(0, 0, 0, .55);
+  border-radius: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.forecast ol li + li {
+  margin-top: 8px;
+}
+
+.forecast ol li div p{
+  font-size: 17px;
+}
+
+.forecast ol li h3 {
+  font-weight: 400;
+  min-width: 120px;
+  text-align: left;
+}
+
+.forecast ol li div {
+  display: flex;
+  min-width: 90px;
+}
+
+.forecast ol li div svg {
+  font-size: 18px;
+  margin-right: 8px;
+}
+
+.tempo {
+  margin-bottom: 15px;
+}
